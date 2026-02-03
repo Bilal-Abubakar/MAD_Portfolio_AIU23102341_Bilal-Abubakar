@@ -1,0 +1,2 @@
+Lab 1 helped me understand the fundamentals of Android application development. I learned how to install and configure Android Studio and how an Android project is structured. Creating a simple UI using XML introduced me to basic UI components such as TextView, EditText, and Button.
+

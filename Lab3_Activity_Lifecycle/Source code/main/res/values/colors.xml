@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="darkgray">#FF333333</color>
+
+    <!-- Calculator theme colors -->
+    <color name="calculator_background">#2C2C2E</color>
+    <color name="calculator_text_primary">#FFFFFF</color>
+    <color name="calculator_text_secondary">#8E8E93</color>
+    <color name="calculator_operator_button">#FFC107</color>
+
+    <!-- Button colors matching the purple/blue design -->
+    <color name="button_background">#6C63FF</color>
+    <color name="button_ripple">#8A84FF</color>
+</resources>

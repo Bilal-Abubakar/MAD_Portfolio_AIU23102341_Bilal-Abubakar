@@ -1,0 +1,2 @@
+In Lab 2, I learned how different layout managers affect the positioning and behavior of UI components. I implemented RelativeLayout, GridLayout, and ConstraintLayout and compared their usage.
+

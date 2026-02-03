@@ -1,0 +1,3 @@
+In the Lab 5 I got introduced to SQLite for local data storage. I learned how to create and manage a database using SQLiteOpenHelper and implement CRUD operations.
+
+Displaying stored data helped me connect backend logic with the UI. This lab strengthened my understanding of persistent storage and real-world Android app development.

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Book Title"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTitle"
+        tools:ignore="Autofill,HardcodedText,VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/textPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTitle"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Book Price"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPrice"
+        tools:ignore="Autofill,HardcodedText,VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/textBookType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editPrice"
+        tools:ignore="HardcodedText" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guide50pV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".5" />
+
+    <TextView
+        android:id="@+id/textBookTypeRegular"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#EEEEEE"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:text="Regular"
+        app:layout_constraintEnd_toStartOf="@+id/guide50pV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textBookType"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textBookTypeEBook"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:text="EBook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/guide50pV"
+        app:layout_constraintTop_toBottomOf="@+id/textBookType"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonBoughtDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Bought Date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textBookTypeRegular"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/textBoughtDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="2023-02-01"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBoughtDate"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Save Book"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
